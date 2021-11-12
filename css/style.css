@@ -34,6 +34,8 @@ body {
 .nav {
   display: none;
 }
+/* main section */
+
 .main-section:first-of-type {
   background-color: var(--main-color);
   padding-top: 45px;
@@ -68,4 +70,31 @@ body {
   .menu-item:nth-of-type(4) {
     border-left: solid var(--white) 1px;
   }
+}
+.plains-link {
+  background-color: var(--button-color);
+  width: 100%;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  margin: 15px 0;
+}
+.small-info {
+  color: var(--white);
+  margin: 5px 0 25px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  line-height: 10px;
+}
+.main-section:nth-of-type(2) {
+  padding-top: 20px;
+}
+.h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+  text-align: center;
 }
