@@ -98,3 +98,35 @@ body {
   line-height: 1.2;
   text-align: center;
 }
+/*Footer styles*/
+.footer {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--black);
+  color: grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 0.8rem;
+}
+.footer-nav {
+  align-self: flex-end;
+}
+
+.footer-menu-item {
+  line-height: 20px;
+  display: inline-block;
+}
+.footer-menu-item:last-of-type {
+  display: block;
+}
+.footer-menu-item + .footer-menu-item {
+  margin-left: 5px;
+}
+
+.container-footer {
+  align-self: flex-start;
+}
+.footer-info + .footer-info {
+  margin-top: 10px;
+}
